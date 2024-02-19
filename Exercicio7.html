@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Exercicio 7</title>
+  </head>
+<body>
+  <p>EXERCÍCIO 7</p>
+  <script>
+  function funcaoVerifica (hora) {
+    if (hora >= 6 && hora < 13){
+       alert ("A hora "+hora+" representa um Bom Dia")
+       console.log("A hora "+hora+" representa um Bom Dia")
+    }else{
+       if (hora >= 13 && hora < 19){
+         alert ("A hora "+hora+" representa uma Boa Tarde")
+         console.log("A hora "+hora+" representa uma Boa Tarde")
+       }else{
+          alert ("A hora "+hora+" representa uma Boa Noite")
+          console.log("A hora "+hora+" representa uma Boa Noite")
+       }
+    }
+  }
+
+  let hora = parseInt (prompt("Digite por gentileza a hora:"))
+  funcaoVerifica (hora);
+
+  </script>
+</body>
+</html>
+
+
